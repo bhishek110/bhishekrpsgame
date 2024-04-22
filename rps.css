@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2px;
+}
+
+.header {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.header,
+.content,
+.content-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px;
+}
+
+.header h1 {
+  font-size: 30px;
+}
+
+.container {
+  /* top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 100px 20px 0px;
+}
+
+.container img {
+  width: 120px;
+  transition: .15s;
+}
+
+.container img:hover {
+  transform: scale(1.05);
+}
+
+.container img:active {
+  transform: scale(1);
+}
+
+.sub-container-1,
+.sub-container-2,
+.sub-container-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sub-container-1 p,
+.sub-container-2 p,
+.sub-container-3 p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.content,
+.content-2 {
+  flex-direction: column;
+}
+
+.content p {
+  font-size: 22px;
+  font-weight: 600;
+  padding: 5px;
+}
+
+.content-2 h2 {
+  margin: 7px 0px;
+}
+
+.greenyellow {
+  color: greenyellow;
+}
+
+.darkgrey {
+  color: darkgrey;
+}
+
+.red {
+  color: red;
+}
+
+#position{
+  font-weight: 700;
+}
